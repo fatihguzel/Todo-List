@@ -1,5 +1,5 @@
 body{
-    background: url("indir\ \(1\).jpg") no-repeat center center fixed; 
+    background: url("ce776479-2ecb-40b0-9f19-e0ecb0806bd0.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,11 +7,13 @@ body{
     background-attachment: fixed;
 }
 .card-header{
-    background-color: rgb(163, 63, 9);
+    background-color: rgb(255,217,228);
+    border-radius: 10px;
 }
 .todo-form{
     background-color: rgb(7, 47, 50);
 }
 .card-row{
-    background-color: rgb(101, 120, 120);
+    background-color: rgb(159,158,165);
+    border-radius: 10px;
 }
