@@ -1,0 +1,17 @@
+body{
+    background: url("indir\ \(1\).jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card-header{
+    background-color: rgb(163, 63, 9);
+}
+.todo-form{
+    background-color: rgb(7, 47, 50);
+}
+.card-row{
+    background-color: rgb(101, 120, 120);
+}
