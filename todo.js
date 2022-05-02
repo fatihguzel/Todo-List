@@ -16,10 +16,29 @@ function eventListeners(){ // Tüm event listenerlar
 
 function addTodo(e) {
     const newTodo = todoInput.value.trim()
-    
-    addTodoToUI(newTodo)
+    if(newTodo === ""){
+        showAlert("danger","Lütfen bir todo girin")
+    }
+    else{
+        addTodoToUI(newTodo)
+        showAlert("success","Todo başarıyla eklendi")
+    }
+
 
     e.preventDefault()
+}
+function showAlert(type,message) {
+    const alert = document.createElement("div")
+
+    alert.className = `alert alert-${type}`
+
+    alert.textContent = message
+
+    firstCardBody.appendChild(alert)
+
+    setTimeout(function(){
+        alert.remove()
+    },1000)
 }
 function addTodoToUI(newTodo) { // String değerini list item olarak UI'ya ekleyecek
     // List Item Oluşturma
