@@ -1,5 +1,5 @@
 body{
-    background: url("ce776479-2ecb-40b0-9f19-e0ecb0806bd0.jpg") no-repeat center center fixed; 
+    background: url("website-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,13 +7,20 @@ body{
     background-attachment: fixed;
 }
 .card-header{
-    background-color: rgb(255,217,228);
+    background-color: rgba(166, 106, 27, 0.692);
+    border-radius: 10px;
+}
+.card-row{
+    background-color: rgba(159, 158, 165, 0.309);
     border-radius: 10px;
 }
 .todo-form{
     background-color: rgb(7, 47, 50);
 }
-.card-row{
-    background-color: rgb(159,158,165);
-    border-radius: 10px;
+.card-title{
+    text-align: center;
+    text-decoration: underline;
+    vertical-align: middle;
 }
+
+
